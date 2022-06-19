@@ -1,4 +1,4 @@
 # alarm-clocks
 
 
-<img src="png.PNG" alt="">
+<img src="png.jpg" alt="">
