@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alarma</title>
+    <title>Document</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
         rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
@@ -14,45 +14,43 @@
 
 <body>
 
-
     <div class="header">
         <div class="inner-header flex">
-
             <div class="container mt-5">
-                <img src="reloj.png" alt="">
-                <h1>02:09:00 PM</h1>
-                <div class="d-flex justify-content-center align-items-center">
-                    <h2>Sabado, 18 de Junio de 2022</h2>
+                <img src="alarm-clock.png" class="img-fluid">
+                <h1>00:00:00 AM</h1>
+                <div class="fechas d-flex justify-content-center align-items-center">
+                    <!-- <h2>Jueves, 09 de Junio de 2022</h2> -->
+                    <h2></h2>
                 </div>
 
                 <div class="contenido">
                     <div class="column">
                         <select class="browser-default custom-select">
                             <option value="Hora" selected disabled hidden>Hora</option>
-                            <option value="1">01</option>
-                            <option value="2">02</option>
-                            <option value="3">03</option>
+                            <!-- <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option> -->
                         </select>
                     </div>
-
                     <div class="column">
                         <select class="browser-default custom-select min">
                             <option value="Minutos" selected disabled hidden>Minutos</option>
-                            <option value="1">01</option>
-                            <option value="2">02</option>
-                            <option value="3">03</option>
+                            <!-- <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option> -->
                         </select>
                     </div>
-
                     <div class="column">
                         <select class="browser-default custom-select">
                             <option value="AM/PM" selected disabled hidden>AM/PM</option>
-                            <option value="1">AM</option>
-                            <option value="2">PM</option>
+                            <!-- <option value="01">PM</option>
+                    <option value="02">AM</option> -->
                         </select>
                     </div>
                 </div>
-                <button class="btn btn-primary mt-4">Activar alarma</button>
+                <button class="btn btn-primary mt-4 waves-effect waves-effect">Activar alarma</button>
+                <!-- <a class="btn btn-danger" onclick="toastr.error('Por favor introduza los datos');">Error message</a> -->
             </div>
         </div>
 
@@ -77,8 +75,6 @@
 
 
 
-
-
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
@@ -87,6 +83,7 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
     </script>
+    <script src="app.js"></script>
 </body>
 
 </html>
